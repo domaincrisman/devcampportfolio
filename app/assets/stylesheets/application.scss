@@ -166,26 +166,17 @@ body {
  * Custom Styles
  */
 
-.card{
-  color: black;
-  vertical-align: top;
-}
+
 
 .card-block {
   color: black;
-  text-align: left;
-  width: 45rem;
+  text-align: left; 
 }
 
 .auth-links a{
   color: black;
 }
 
-.nav-masthead{
-  margin-bottom: 5.25rem;
-
-}
-
-.card-subtitle em{
-    font-size: 10rem;
+.register-text{
+  text-align: right;
 }
