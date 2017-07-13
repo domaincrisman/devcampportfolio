@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 42rem;
+    width: 50rem;
   }
 }
 
@@ -166,11 +166,26 @@ body {
  * Custom Styles
  */
 
+.card{
+  color: black;
+  vertical-align: top;
+}
+
 .card-block {
   color: black;
   text-align: left;
+  width: 45rem;
 }
 
 .auth-links a{
   color: black;
+}
+
+.nav-masthead{
+  margin-bottom: 5.25rem;
+
+}
+
+.card-subtitle em{
+    font-size: 10rem;
 }
