@@ -2,6 +2,12 @@
   "name": "DevcampPortfolio",
   "private": true,
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "jquery": "^3.2.1"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:domaincrisman/devcampportfolio.git",
+  "author": "domaincrisman <cmanzanore@gmail.com>",
+  "license": "MIT"
 }
