@@ -27,24 +27,24 @@ module ApplicationHelper
 				title: 'Home'
 			},
 			{
+				url: portfolios_path,
+				title: 'Portfolio'
+			},
+			{
+				url: blogs_path,
+				title: 'Blog'
+			},
+						{
+				url: tech_news_path,
+				title: 'Tech News'
+			},
+			{
 				url: about_me_path,
 				title: 'About Me'
 			},
 			{
 				url: contact_path,
 				title: 'Contact'
-			},
-			{
-				url: blogs_path,
-				title: 'Blog'
-			},
-			{
-				url: portfolios_path,
-				title: 'Portfolio'
-			},
-			{
-				url: tech_news_path,
-				title: 'Tech News'
 			}
 		]
 	end
