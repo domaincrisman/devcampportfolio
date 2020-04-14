@@ -30,7 +30,7 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
-gem 'devise', '~> 4.3'
+gem 'devise', '~> 4.7'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'crisman_view_tool', git: 'https://github.com/domaincrisman/crisman_view_tool'
