@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.12'
 gem 'sass-rails', '~> 5.0', '>= 5.0.8'
@@ -13,7 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 gem 'jquery-rails', '>= 4.3.5'
 gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.10', '>= 2.10.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -35,13 +35,13 @@ gem 'devise', '>= 4.7.1'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'crisman_view_tool', git: 'https://github.com/domaincrisman/crisman_view_tool'
 gem 'petergate', '~> 1.9', '>= 1.9.1'
-gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.6'
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'carrierwave', '~> 1.3', '>= 1.3.2'
 gem 'mini_magick', '>= 4.9.4'
 gem 'carrierwave-aws', '~> 1.4', '>= 1.4.0'
-gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1'
