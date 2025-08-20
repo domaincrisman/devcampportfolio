@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.12'
 gem 'sass-rails', '~> 5.0', '>= 5.0.8'
@@ -29,14 +29,14 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'friendly_id', '~> 5.1.0'
+gem 'friendly_id', '~> 5.2.0'
 gem 'devise', '>= 4.7.1'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'crisman_view_tool', git: 'https://github.com/domaincrisman/crisman_view_tool'
-gem 'petergate', '~> 1.9', '>= 1.9.1'
+gem 'petergate', '~> 2.0', '>= 2.0.1'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
-gem 'kaminari', '~> 1.2', '>= 1.2.1'
+gem 'kaminari', '~> 1.2', '>= 1.2.2'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'carrierwave', '~> 1.3', '>= 1.3.2'
 gem 'mini_magick', '>= 4.9.4'
